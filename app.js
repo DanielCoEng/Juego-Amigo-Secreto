@@ -11,7 +11,6 @@ function agregarAmigo(){
     }else{
     amigos.push(nombre);
     actualizarListaAmigos();
-    console.log(amigos)
     limpiarCampo();
     
     }
@@ -43,7 +42,6 @@ function sortearAmigo(){
         alert(`${ amigos.length>0 ? 'ingresa mas amigos' : 'no hay amigos incluidos para sortear'}`);
     }else{
         let incideSecreto = Math.floor(Math.random()*amigos.length); //genera el indice de la 
-        console.log(incideSecreto);
         let resultado = document.getElementById('resultado');
         resultado.innerHTML = amigos[incideSecreto];
     }
