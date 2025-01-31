@@ -36,3 +36,15 @@ function actualizarListaAmigos(){
     });
     lista.appendChild(fragmento);
 }
+
+//funcion para elegir el amigo secreto
+function sortearAmigo(){
+    if(amigos.length == 0 || amigos.length ==1){
+        alert(`${ amigos.length>0 ? 'ingresa mas amigos' : 'no hay amigos incluidos para sortear'}`);
+    }else{
+        let incideSecreto = Math.floor(Math.random()*amigos.length); //genera el indice de la 
+        console.log(incideSecreto);
+        let resultado = document.getElementById('resultado');
+        resultado.innerHTML = amigos[incideSecreto];
+    }
+}
