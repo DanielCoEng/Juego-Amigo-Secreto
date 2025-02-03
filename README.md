@@ -36,4 +36,4 @@ https://github.com/user-attachments/assets/80c1c523-dbb8-4a25-84cb-3165018014f8
 </ul>
 
 <h3>Desarrollador: Jairo Daniel Cortes Guerrero</h3>
-<p href="www.linkedin.com/in/jairo-daniel-cortes-guerrero-5556741b5"> Perfil Linkendin</p>
+<a href="www.linkedin.com/in/jairo-daniel-cortes-guerrero-5556741b5">Perfil Linkendin</a>
